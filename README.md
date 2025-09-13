@@ -1,81 +1,79 @@
 # Swift Concurrency Demo - iOS
 
-Application de démonstration interactive des concepts de concurrence dans iOS avec Swift 6.2.
+🌐 **[Français](README_fr.md)** | **[Deutsch](README_de.md)** | **[Español](README_es.md)** | **[日本語](README_ja.md)** | **[Português BR](README_pt-BR.md)**
 
-## 🎯 Structure du projet
+Interactive demonstration app for Swift concurrency concepts in iOS with Swift 6.2.
 
-Le projet est organisé par sections, chaque exemple ayant sa propre vue dédiée avec :
-- Code source affiché
-- Logs d'exécution en temps réel
-- Points de validation
-- Indicateurs de thread (🟢 Main / 🔴 Background)
+## 🎯 Project Structure
+
+The project is organized by sections, each example having its own dedicated view with:
+- Source code display
+- Real-time execution logs
+- Validation points
+- Thread indicators (🟢 Main / 🔴 Background)
 
 ```
 Concurrency/
-├── ConcurrencyApp.swift           # Point d'entrée
-├── MainMenuView.swift             # Menu de navigation principal
-├── Common/                        # Composants partagés
+├── ConcurrencyApp.swift           # Entry point
+├── MainMenuView.swift             # Main navigation menu
+├── Common/                        # Shared components
 │   ├── Models/
-│   │   └── LogEntry.swift        # Modèle pour les logs
+│   │   └── LogEntry.swift        # Log model
 │   └── Views/
-│       ├── CodeView.swift        # Affichage du code
-│       └── LogsView.swift        # Affichage des logs
-└── Examples/                      # Exemples organisés par section
-    ├── 1_BasicsMainActor/
-    ├── 2_TasksPriorities/
-    ├── 3_IsolationActors/
-    ├── 4_ExitingMainActor/
-    ├── 5_StructuredConcurrency/
-    └── 6_ToolsDiagnostic/
+│       ├── CodeView.swift        # Code display
+│       └── LogsView.swift        # Log display
+└── Examples/                      # Examples organized by section
+    ├── Basics/
+    ├── Tasks/
+    └── Actors/
 ```
 
-## 📱 Sections disponibles
+## 📱 Available Sections
 
-### 1. Bases & Main Actor
-- **Deux async enchaînées** : Héritage du MainActor entre fonctions
-- **Callback → async/await** : Moderniser les callbacks
+### 1. Basics
+- **async let Parallel** : Show concurrent structured operations
+- **MainActor Isolation** : Understanding main actor inheritance
 
-### 2. Tasks & Priorités
-- **Task vs Task.detached** : Comprendre l'héritage d'isolation
-- **Annulation coopérative** : Gérer l'annulation des tâches
+### 2. Tasks
+- **Task Lifecycle** : Task creation, execution and completion
+- **Task vs Detached** : Understanding isolation inheritance
+- **Cooperative Cancellation** : Managing task cancellation
+- **TaskGroup Parallel** : Execute multiple tasks in parallel
 
-### 3. Isolation & Actors
-- **Actor simple** : Protection contre les data races
-- **Propriété nonisolated** : Accès synchrone dans un actor
-- **isolated deinit** : Cleanup sécurisé
+### 3. Actors
+- **Actor Data Race** : Protection against data races
+- **Concurrent MainActor** : Working with main actor isolation
+- **Nonisolated Property** : Synchronous access in an actor
+- **Isolated Deinit** : Safe cleanup
 
-### 4. Sortir du Main Actor
-- **nonisolated vs isolation** : Comment sortir de l'isolation
-- **nonisolated dans un actor** : Accès synchrone aux membres
-- **Task.detached vs nonisolated** : Différentes approches
-
-### 5. Concurrence Structurée
-- **Comprendre la concurrence** : Séquentiel vs concurrent
-- **TaskGroup parallèle** : Exécuter plusieurs tâches en parallèle
-- **TaskGroup avec timeout** : Limiter le temps d'exécution
-
-### 6. Outils & Diagnostic
-- **Instruments Profiling** : Visualiser les tâches concurrentes
-- **Avertissements de compilation** : Détecter les data races
-
-## 🚀 Configuration requise
+## 🚀 Requirements
 
 - Xcode 15.0+
 - iOS 17.0+
 - Swift 6.2
 
-## 💡 Utilisation
+## 💡 Usage
 
-1. Ouvrez le projet dans Xcode
-2. Lancez l'application sur un simulateur ou appareil
-3. Naviguez dans les différents exemples via le menu principal
-4. Appuyez sur "Exécuter" pour voir le code en action
-5. Observez les logs en temps réel avec indicateurs de thread
+1. Open the project in Xcode
+2. Run the app on a simulator or device
+3. Navigate through the different examples via the main menu
+4. Tap "Execute" to see the code in action
+5. Observe real-time logs with thread indicators
 
-## 🎓 Points clés d'apprentissage
+## 🎓 Key Learning Points
 
-- **async/await** : Syntaxe moderne pour la programmation asynchrone
-- **Actors** : Protection automatique contre les data races
-- **nonisolated** : Sortir de l'isolation pour l'accès synchrone
-- **Concurrence structurée** : Gestion sûre des tâches enfants
-- **Diagnostic** : Outils pour détecter et résoudre les problèmes
+- **async/await** : Modern syntax for asynchronous programming
+- **Actors** : Automatic protection against data races
+- **nonisolated** : Exit isolation for synchronous access
+- **Structured Concurrency** : Safe management of child tasks
+- **Diagnostics** : Tools to detect and resolve issues
+
+## 🌐 Supported Languages
+
+This app supports 6 languages with 100% localization:
+- 🇬🇧 English
+- 🇫🇷 French
+- 🇩🇪 German
+- 🇪🇸 Spanish
+- 🇯🇵 Japanese
+- 🇧🇷 Portuguese (Brazil)
