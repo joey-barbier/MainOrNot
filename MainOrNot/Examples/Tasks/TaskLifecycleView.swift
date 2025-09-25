@@ -52,7 +52,8 @@ class ViewModel: ObservableObject {
         String(localized: "lifecycle.validation.2"),
         String(localized: "lifecycle.validation.3"),
         String(localized: "lifecycle.validation.4"),
-        String(localized: "lifecycle.validation.5")
+        String(localized: "lifecycle.validation.5"),
+        String(localized: "lifecycle.validation.6")
     ]
     
     private let flagsImpact = String(localized: "lifecycle.flags")

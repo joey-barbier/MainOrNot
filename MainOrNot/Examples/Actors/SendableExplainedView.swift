@@ -59,7 +59,8 @@ actor BackgroundWorker {
 
 // Types
 struct User { let name: String }      // ✅ Automatically Sendable
-class NonSendableData { var text = "" } // ❌ Not Sendable
+class NonSendableData { var text = "" } // ✅ Automatically Sendable with 6.2 DAI = MainActor
+class NonSendableData { var text = "" } // ❌ Not Sendable with DAI = nonisolated
 """#
     
     private let validationPoints = [
