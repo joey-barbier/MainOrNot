@@ -3525,7 +3525,7 @@
       }
     },
     "mainactor.validation.3" : {
-      "comment" : "Nouveau point",
+      "comment" : "Changement de point",
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -3579,6 +3579,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thread.isMainThread pode ser false mesmo no MainActor (fast-hop iOS 17+)"
+          }
+        }
+      }
+    },
+    "mainactor.validation.5" : {
+      "comment" : "Nouveau point",
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mettre votre projet en Swift 6 activera certains flags activés par AC lui même, mais 2 resteront off (nonisolated[nonsending] by default et Infer Isolated Conformances)."
+          }
+        }
+      }
+    },
+    "mainactor.validation.6" : {
+      "comment" : "Nouveau point",
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Préférez activer DAI sur MainActor, plutôt que de le laisser sur off en utilisant le Infer Isolated Conformances. "
           }
         }
       }
