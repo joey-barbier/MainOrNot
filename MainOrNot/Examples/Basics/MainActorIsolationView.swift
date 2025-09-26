@@ -31,13 +31,31 @@ func parse() async {
 }
 
 await fetch()
+
+// AC also enables Infer Isolated Conformances (IIC). Useful if you're working with DAI set to nonisolated (not a recommended setting though)
+
+// With IIC false and DAI set to nonisolated
+
+@MainActor
+struct IsolatedStruct: Equatable { /* Conformance of 'IsolatedStruct' to protocol 'Equatable' crosses into main actor-isolated code and can cause data races */
+    let id: String
+
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        lhs.id == rhs.id
+    }
+}
+
+// With IIC true and DAI set to nonisolated, or DAI set to MainActor, it will compile.
+
 """#
     
     private let validationPoints = [
         String(localized: "mainactor.validation.1"),
         String(localized: "mainactor.validation.2"),
         String(localized: "mainactor.validation.3"),
-        String(localized: "mainactor.validation.4")
+        String(localized: "mainactor.validation.4"),
+        String(localized: "mainactor.validation.5"),
+        String(localized: "mainactor.validation.6")
     ]
     
     // MARK: – View ---------------------------------------------------------
