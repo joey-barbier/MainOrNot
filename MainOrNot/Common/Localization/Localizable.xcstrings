@@ -6254,7 +6254,7 @@
       }
     },
     "taskdetached.production" : {
-      "comment" : ""Can run on main thread" au lieu de "Return"",
+      "comment" : "\"Can run on main thread\" au lieu de \"Return\"",
       "extractionState" : "manual",
       "localizations" : {
         "de" : {
@@ -6827,7 +6827,7 @@
       }
     },
     "taskvs.validation.3" : {
-      "comment" : ""May run on" au lieu de "return\"",
+      "comment" : "\"May run on\" au lieu de \"return\"",
       "extractionState" : "manual",
       "localizations" : {
         "de" : {
