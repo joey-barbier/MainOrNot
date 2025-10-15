@@ -33,7 +33,7 @@ struct DataProcessor {  // Without annotation = @MainActor by default
 
 Task.detached {
     let processor = DataProcessor()
-    await processor.process()  // ⚠️ May return to MainThread!
+    await processor.process()  // ⚠️ May run on MainThread!
 }
 """#
     

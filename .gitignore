@@ -1,0 +1,5 @@
+*.xcodeproj/project.pbxproj
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserdata/
+DerivedData/
