@@ -901,20 +901,20 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Swift 6 Flags Auswirkungen :\n\n• AC (Approachable Concurrency) : \n  Verbessert Isolationsdiagnose für @concurrent\n\n• DAI (Default Actor Isolation) : \n  - nonisolated → @concurrent erzwingt Hintergrund\n  - MainActor → @concurrent wird entscheidend für Opt-out\n\n💪 @concurrent ERZWINGT IMMER Hintergrundausführung.\nMit DAI=MainActor ist es essentiell, UI-Blockierung zu vermeiden."
+            "state" : "translated",
+            "value" : "Swift 6 Flags Auswirkungen:\n\n• AC (Approachable Concurrency):\n  - Erlaubt die Zuweisung von (nonsending) zu allen nonisolated-annotierten Funktionen. Dadurch verhalten sich nonisolated async Funktionen wie nonisolated Funktionen. Beide übernehmen nun den Ausführungskontext ihres Elternteils\n\n• DAI (Default Actor Isolation):\n  - nonisolated → @concurrent erzwingt Hintergrundausführung\n  - MainActor → @concurrent wird entscheidend für Opt-out\n\n💪 @concurrent ERZWINGT IMMER Hintergrundausführung.\nMit DAI=MainActor ist es essentiell, UI-Blockierung zu vermeiden."
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Swift 6 flags impact :\n\n• AC (Approachable Concurrency) : \n  Improves isolation diagnostics for @concurrent\n\n• DAI (Default Actor Isolation) : \n  - nonisolated → @concurrent forces background\n  - MainActor → @concurrent becomes crucial for opt-out\n\n💪 @concurrent ALWAYS forces background execution.\nWith DAI=MainActor, it's essential to avoid blocking the UI."
+            "state" : "translated",
+            "value" : "Swift 6 flags impact:\n\n• AC (Approachable Concurrency):\n  - Allows assigning (nonsending) to all nonisolated-annotated functions. As a result, nonisolated async functions will behave like nonisolated functions. Both will now inherit their parent's execution context\n\n• DAI (Default Actor Isolation):\n  - nonisolated → @concurrent forces background execution\n  - MainActor → @concurrent becomes crucial for opt-out\n\n💪 @concurrent ALWAYS forces background execution.\nWith DAI=MainActor, it's essential to avoid blocking the UI."
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Impacto de flags Swift 6 :\n\n• AC (Approachable Concurrency) : \n  Mejora los diagnósticos de aislamiento para @concurrent\n\n• DAI (Default Actor Isolation) : \n  - nonisolated → @concurrent fuerza segundo plano\n  - MainActor → @concurrent se vuelve crucial para opt-out\n\n💪 @concurrent SIEMPRE fuerza ejecución en segundo plano.\nCon DAI=MainActor, es esencial para evitar bloquear la UI."
+            "state" : "translated",
+            "value" : "Impacto de flags Swift 6:\n\n• AC (Approachable Concurrency):\n  - Permite asignar (nonsending) a todas las funciones anotadas con nonisolated. Como resultado, las funciones nonisolated async se comportarán como las funciones nonisolated. Ambas ahora heredarán el contexto de ejecución de su padre\n\n• DAI (Default Actor Isolation):\n  - nonisolated → @concurrent fuerza ejecución en segundo plano\n  - MainActor → @concurrent se vuelve crucial para opt-out\n\n💪 @concurrent SIEMPRE fuerza ejecución en segundo plano.\nCon DAI=MainActor, es esencial para evitar bloquear la UI."
           }
         },
         "fr" : {
@@ -925,14 +925,14 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Swift 6フラグの影響 :\n\n• AC (Approachable Concurrency) : \n  @concurrentの分離診断を改善\n\n• DAI (Default Actor Isolation) : \n  - nonisolated → @concurrentはバックグラウンドを強制\n  - MainActor → @concurrentはopt-outに重要\n\n💪 @concurrentは常にバックグラウンド実行を強制します。\nDAI=MainActorでは、UIブロックを避けるために不可欠です。"
+            "state" : "translated",
+            "value" : "Swift 6フラグの影響:\n\n• AC (Approachable Concurrency):\n  - nonisolatedアノテーション付き関数すべてに(nonsending)を割り当て可能にします。その結果、nonisolated async関数はnonisolated関数と同様に動作します。両方とも親の実行コンテキストを継承するようになります\n\n• DAI (Default Actor Isolation):\n  - nonisolated → @concurrentはバックグラウンド実行を強制\n  - MainActor → @concurrentはopt-outに不可欠\n\n💪 @concurrentは常にバックグラウンド実行を強制します。\nDAI=MainActorでは、UIブロックを避けるために不可欠です。"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Impacto das flags Swift 6 :\n\n• AC (Approachable Concurrency) : \n  Melhora diagnósticos de isolamento para @concurrent\n\n• DAI (Default Actor Isolation) : \n  - nonisolated → @concurrent força segundo plano\n  - MainActor → @concurrent torna-se crucial para opt-out\n\n💪 @concurrent SEMPRE força execução em segundo plano.\nCom DAI=MainActor, é essencial para evitar bloquear a UI."
+            "state" : "translated",
+            "value" : "Impacto das flags Swift 6:\n\n• AC (Approachable Concurrency):\n  - Permite atribuir (nonsending) a todas as funções anotadas com nonisolated. Como resultado, funções nonisolated async se comportarão como funções nonisolated. Ambas agora herdarão o contexto de execução do pai\n\n• DAI (Default Actor Isolation):\n  - nonisolated → @concurrent força execução em segundo plano\n  - MainActor → @concurrent torna-se crucial para opt-out\n\n💪 @concurrent SEMPRE força execução em segundo plano.\nCom DAI=MainActor, é essencial para evitar bloquear a UI."
           }
         }
       }
@@ -1675,20 +1675,20 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Swift 6 Flags Auswirkungen :\n\n• AC (Approachable Concurrency) : \n  Keine signifikante Auswirkung hier\n\n• DAI (Default Actor Isolation) : \n  - nonisolated → Task.detached bleibt im Hintergrund\n  - MainActor → Task.detached kann MainThread zurückgeben\n\n⚠️ KRITISCHE FALLE: \nSelbst Task.detached + struct @MainActor = Rückkehr MainThread!"
+            "state" : "translated",
+            "value" : "Swift 6 Flags Auswirkungen:\n\n• AC (Approachable Concurrency):\n  Keine signifikante Auswirkung hier\n\n• Task.detached läuft immer im Hintergrund, aber Funktionen darin können auf dem Main-Thread laufen!\n\n⚠️ KRITISCHE FALLE:\nSelbst Task.detached + struct @MainActor = Funktionen laufen auf MainThread!"
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Swift 6 flags impact :\n\n• AC (Approachable Concurrency) : \n  No significant impact here\n\n• Task.detached always run on a background thread but functions inside it can run on main thread! \n\n⚠️ CRITICAL TRAP: \nEven Task.detached + struct @MainActor = run on MainThread!"
+            "state" : "translated",
+            "value" : "Swift 6 flags impact:\n\n• AC (Approachable Concurrency):\n  No significant impact here\n\n• Task.detached always runs in background, but functions inside it can run on main thread!\n\n⚠️ CRITICAL TRAP:\nEven Task.detached + struct @MainActor = functions run on MainThread!"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Impacto de flags Swift 6 :\n\n• AC (Approachable Concurrency) : \n  Sin impacto significativo aquí\n\n• DAI (Default Actor Isolation) : \n  - nonisolated → Task.detached permanece en segundo plano\n  - MainActor → Task.detached puede volver MainThread\n\n⚠️ TRAMPA CRÍTICA: \n¡Incluso Task.detached + struct @MainActor = retorna MainThread!"
+            "state" : "translated",
+            "value" : "Impacto de flags Swift 6:\n\n• AC (Approachable Concurrency):\n  Sin impacto significativo aquí\n\n• Task.detached siempre se ejecuta en segundo plano, ¡pero las funciones dentro pueden ejecutarse en el main thread!\n\n⚠️ TRAMPA CRÍTICA:\n¡Incluso Task.detached + struct @MainActor = funciones se ejecutan en MainThread!"
           }
         },
         "fr" : {
@@ -1699,14 +1699,14 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Swift 6フラグの影響 :\n\n• AC (Approachable Concurrency) : \n  ここでは大きな影響なし\n\n• DAI (Default Actor Isolation) : \n  - nonisolated → Task.detachedはバックグラウンドのまま\n  - MainActor → Task.detachedはMainThreadを返す可能性\n\n⚠️ 重要な落とし穴: \nTask.detached + struct @MainActor でもMainThreadに戻ります！"
+            "state" : "translated",
+            "value" : "Swift 6フラグの影響:\n\n• AC (Approachable Concurrency):\n  ここでは大きな影響なし\n\n• Task.detachedは常にバックグラウンドで実行されますが、その中の関数はメインスレッドで実行される可能性があります！\n\n⚠️ 重要な落とし穴:\nTask.detached + struct @MainActor でも関数はMainThreadで実行されます！"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Impacto das flags Swift 6 :\n\n• AC (Approachable Concurrency) : \n  Sem impacto significativo aqui\n\n• DAI (Default Actor Isolation) : \n  - nonisolated → Task.detached permanece em segundo plano\n  - MainActor → Task.detached pode retornar MainThread\n\n⚠️ ARMADILHA CRÍTICA: \nMesmo Task.detached + struct @MainActor = retorna MainThread!"
+            "state" : "translated",
+            "value" : "Impacto das flags Swift 6:\n\n• AC (Approachable Concurrency):\n  Sem impacto significativo aqui\n\n• Task.detached sempre executa em segundo plano, mas as funções dentro dele podem executar no main thread!\n\n⚠️ ARMADILHA CRÍTICA:\nMesmo Task.detached + struct @MainActor = funções executam no MainThread!"
           }
         }
       }
@@ -2292,20 +2292,20 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Zeigen, dass eine nonisolated-Eigenschaft eines Actors synchronen Zugriff \nohne await ermöglicht. ⚠️ Nicht zu verwechseln mit @concurrent:\n• nonisolated = entfernt Isolation vollständig\n• @concurrent = behält Isolation bei, erzwingt aber Hintergrund"
+            "state" : "translated",
+            "value" : "Zeigen, dass eine nonisolated-Eigenschaft eines Actors synchronen Zugriff \nohne await ermöglicht. ⚠️ Nicht zu verwechseln mit @concurrent:\n• nonisolated = wird im Kontext des Aufrufers ausgeführt\n• @concurrent = erzwingt Hintergrund"
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show that a nonisolated property of an actor allows synchronous access \nwithout await. ⚠️ Not to be confused with @concurrent:\n• nonisolated = removes isolation completely\n• @concurrent = keeps isolation but forces background"
+            "state" : "translated",
+            "value" : "Show that a nonisolated property of an actor allows synchronous access \nwithout await. ⚠️ Not to be confused with @concurrent:\n• nonisolated = runs in caller's context\n• @concurrent = forces background"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mostrar que una propiedad nonisolated de un actor permite acceso síncrono \nsin await. ⚠️ No confundir con @concurrent:\n• nonisolated = elimina el aislamiento completamente\n• @concurrent = mantiene el aislamiento pero fuerza background"
+            "state" : "translated",
+            "value" : "Mostrar que una propiedad nonisolated de un actor permite acceso síncrono \nsin await. ⚠️ No confundir con @concurrent:\n• nonisolated = se ejecuta en el contexto del llamador\n• @concurrent = fuerza background"
           }
         },
         "fr" : {
@@ -2316,14 +2316,14 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "actorのnonisolatedプロパティがawaitなしで同期アクセスを可能にすることを示す。⚠️ @concurrentと混同しないこと：\n• nonisolated = 分離を完全に削除\n• @concurrent = 分離を保持するがバックグラウンドを強制"
+            "state" : "translated",
+            "value" : "actorのnonisolatedプロパティがawaitなしで同期アクセスを可能にすることを示す。⚠️ @concurrentと混同しないこと：\n• nonisolated = 呼び出し元のコンテキストで実行される\n• @concurrent = バックグラウンド実行を強制"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mostrar que uma propriedade nonisolated de um actor permite acesso síncrono \nsem await. ⚠️ Não confundir com @concurrent:\n• nonisolated = remove o isolamento completamente\n• @concurrent = mantém o isolamento mas força background"
+            "state" : "translated",
+            "value" : "Mostrar que uma propriedade nonisolated de um actor permite acesso síncrono \nsem await. ⚠️ Não confundir com @concurrent:\n• nonisolated = executa no contexto do chamador\n• @concurrent = força background"
           }
         }
       }
@@ -2621,20 +2621,20 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Zeige den Unterschied zwischen Task {}, das den Kontext erbt, und Task.detached {}, \ndas theoretisch von einem neutralen Kontext startet.\n\n⚠️ Warnung Swift 6.2: selbst Task.detached kann zum MainThread zurückkehren, wenn \n@MainActor-Funktionen aufgerufen werden (struct ohne Annotation = @MainActor)."
+            "state" : "translated",
+            "value" : "Zeige den Unterschied zwischen Task {}, das den Kontext erbt, und Task.detached {}, \ndas theoretisch von einem neutralen Kontext startet.\n\n⚠️ Warnung Swift 6.2: selbst eine Funktion innerhalb von Task.detached kann auf dem MainThread laufen, wenn sie @MainActor ist (struct ohne Annotation = @MainActor)."
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Show the difference between Task {} which inherits the context and Task.detached {} \nwhich theoretically starts from a neutral context.\n\n⚠️ Warning Swift 6.2: even Task.detached can return to MainThread if \ncalling @MainActor functions (struct without annotation = @MainActor)."
+            "state" : "translated",
+            "value" : "Show the difference between Task {} which inherits the context and Task.detached {} \nwhich theoretically starts from a neutral context.\n\n⚠️ Warning Swift 6.2: even a function inside Task.detached can run on MainThread if it's @MainActor (struct without annotation = @MainActor)."
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mostrar la diferencia entre Task {} que hereda el contexto y Task.detached {} \nque teóricamente parte de un contexto neutral.\n\n⚠️ Advertencia Swift 6.2: incluso Task.detached puede volver al MainThread si \nse llaman funciones @MainActor (struct sin anotación = @MainActor)."
+            "state" : "translated",
+            "value" : "Mostrar la diferencia entre Task {} que hereda el contexto y Task.detached {} \nque teóricamente parte de un contexto neutral.\n\n⚠️ Advertencia Swift 6.2: incluso una función dentro de Task.detached puede ejecutarse en MainThread si es @MainActor (struct sin anotación = @MainActor)."
           }
         },
         "fr" : {
@@ -2645,14 +2645,14 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "コンテキストを継承するTask{}と理論的にニュートラルなコンテキストから始まるTask.detached{}の違いを示す。\n\n⚠️ Swift 6.2注意：Task.detachedでも@MainActor関数を呼び出すとMainThreadに戻る可能性がある（アノテーションなしのstruct = @MainActor）。"
+            "state" : "translated",
+            "value" : "コンテキストを継承するTask{}と理論的にニュートラルなコンテキストから始まるTask.detached{}の違いを示す。\n\n⚠️ Swift 6.2注意：Task.detached内の関数でも、それが@MainActorの場合MainThreadで実行される可能性がある（アノテーションなしのstruct = @MainActor）。"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mostrar a diferença entre Task {} que herda o contexto e Task.detached {} \nque teoricamente parte de um contexto neutro.\n\n⚠️ Aviso Swift 6.2: até mesmo Task.detached pode retornar ao MainThread se \nchamar funções @MainActor (struct sem anotação = @MainActor)."
+            "state" : "translated",
+            "value" : "Mostrar a diferença entre Task {} que herda o contexto e Task.detached {} \nque teoricamente parte de um contexto neutro.\n\n⚠️ Aviso Swift 6.2: até mesmo uma função dentro de Task.detached pode executar no MainThread se for @MainActor (struct sem anotação = @MainActor)."
           }
         }
       }
@@ -3326,20 +3326,20 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Protokolle"
+            "state" : "translated",
+            "value" : "Logs"
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Logs"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Registros"
+            "state" : "translated",
+            "value" : "Logs"
           }
         },
         "fr" : {
@@ -3350,14 +3350,14 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "ログ"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Registros"
+            "state" : "translated",
+            "value" : "Logs"
           }
         }
       }
@@ -3528,16 +3528,40 @@
       "comment" : "Changement de point",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple empfiehlt AC = On und DAI = MainActor zu verwenden. Jedes neue Projekt wird mit diesen Optionen erstellt."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apple recommends using AC = On and DAI = MainActor. Any new project will be created with these options."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple recomienda usar AC = On y DAI = MainActor. Cualquier proyecto nuevo se creará con estas opciones."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apple recommande d’utiliser AC = On et DAI = MainActor. Tout nouveau projet sera crée avec ces options. "
+            "value" : "Apple recommande d'utiliser AC = On et DAI = MainActor. Tout nouveau projet sera crée avec ces options. "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AppleはAC = OnとDAI = MainActorの使用を推奨しています。すべての新しいプロジェクトはこれらのオプションで作成されます。"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A Apple recomenda usar AC = On e DAI = MainActor. Qualquer novo projeto será criado com essas opções."
           }
         }
       }
@@ -5088,38 +5112,38 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "nonisolated = keine Isolation | @concurrent = Isolation + Hintergrund"
+            "state" : "translated",
+            "value" : "nonisolated = Kontext des Aufrufers / @concurrent = immer Hintergrund"
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "nonisolated = no isolation | @concurrent = isolation + background"
+            "state" : "translated",
+            "value" : "nonisolated = caller's context / @concurrent = always background"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "nonisolated = sin aislamiento | @concurrent = aislamiento + segundo plano"
+            "state" : "translated",
+            "value" : "nonisolated = contexto del llamador / @concurrent = siempre background"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "nonisolated = contexte de l’appelant / @concurrent = toujours background"
+            "value" : "nonisolated = contexte de l'appelant / @concurrent = toujours background"
           }
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "nonisolated = 分離なし | @concurrent = 分離 + バックグラウンド"
+            "state" : "translated",
+            "value" : "nonisolated = 呼び出し元のコンテキスト / @concurrent = 常にバックグラウンド"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "nonisolated = sem isolamento | @concurrent = isolamento + segundo plano"
+            "state" : "translated",
+            "value" : "nonisolated = contexto do chamador / @concurrent = sempre background"
           }
         }
       }
@@ -5579,20 +5603,20 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "🏗️ In der Produktion ist das Verständnis von Sendable entscheidend:\n\n• **Werttypen**: Struct, Enum, Tupel sind automatisch Sendable\n• **Referenztypen**: Klassen benötigen explizite Konformität\n• **Unveränderlichkeit**: Sendable-Klassen müssen alle Eigenschaften als `let` haben\n• **@unchecked Sendable**: Für thread-sichere Typen mit interner Synchronisation\n• **Actors**: Immer Sendable, da sie ihren Zustand schützen\n\n⚠️ Machen Sie nicht alles Sendable! Verwenden Sie es nur für Daten, die Isolationsgrenzen überschreiten müssen."
+            "state" : "translated",
+            "value" : "🏗️ In der Produktion ist das Verständnis von Sendable entscheidend:\n\n• **Werttypen**: Struct, Enum, Tupel sind automatisch Sendable\n• **Referenztypen**: Klassen benötigen explizite Konformität\n• **Unveränderlichkeit**: Sendable-Klassen müssen alle Eigenschaften als `let` haben\n• **@unchecked Sendable**: Für thread-sichere Typen mit interner Synchronisation\n• **Alle Actor-Typen**: Immer Sendable, da sie ihren Zustand schützen"
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "🏗️ In production, understanding Sendable is crucial:\n\n• **Value types**: Struct, enum, tuples are automatically Sendable\n• **Reference types**: Classes need explicit conformance\n• **Immutability**: Sendable classes must have all `let` properties\n• **@unchecked Sendable**: For thread-safe types with internal synchronization\n• **Actors**: Always Sendable as they protect their state\n\n⚠️ Don't make everything Sendable! Use it only for data that needs to cross isolation boundaries."
+            "state" : "translated",
+            "value" : "🏗️ In production, understanding Sendable is crucial:\n\n• **Value types**: Struct, enum, tuples are automatically Sendable\n• **Reference types**: Classes need explicit conformance\n• **Immutability**: Sendable classes must have all `let` properties\n• **@unchecked Sendable**: For thread-safe types with internal synchronization\n• **All actor types**: Always Sendable as they protect their state"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "🏗️ En producción, entender Sendable es crucial:\n\n• **Tipos de valor**: Struct, enum, tuplas son automáticamente Sendable\n• **Tipos de referencia**: Las clases necesitan conformidad explícita\n• **Inmutabilidad**: Las clases Sendable deben tener todas las propiedades `let`\n• **@unchecked Sendable**: Para tipos thread-safe con sincronización interna\n• **Actors**: Siempre Sendable ya que protegen su estado\n\n⚠️ ¡No hagas todo Sendable! Úsalo solo para datos que necesitan cruzar límites de aislamiento."
+            "state" : "translated",
+            "value" : "🏗️ En producción, entender Sendable es crucial:\n\n• **Tipos de valor**: Struct, enum, tuplas son automáticamente Sendable\n• **Tipos de referencia**: Las clases necesitan conformidad explícita\n• **Inmutabilidad**: Las clases Sendable deben tener todas las propiedades `let`\n• **@unchecked Sendable**: Para tipos thread-safe con sincronización interna\n• **Todos los tipos de actors**: Siempre Sendable ya que protegen su estado"
           }
         },
         "fr" : {
@@ -5603,14 +5627,14 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "🏗️ 本番環境では、Sendableの理解が重要です:\n\n• **値型**: 構造体、列挙型、タプルは自動的にSendable\n• **参照型**: クラスは明示的な準拠が必要\n• **不変性**: Sendableクラスはすべて`let`プロパティである必要\n• **@unchecked Sendable**: 内部同期を持つスレッドセーフな型用\n• **Actors**: 状態を保護するため常にSendable\n\n⚠️ すべてをSendableにしないでください！分離境界を越える必要があるデータにのみ使用してください。"
+            "state" : "translated",
+            "value" : "🏗️ 本番環境では、Sendableの理解が重要です:\n\n• **値型**: 構造体、列挙型、タプルは自動的にSendable\n• **参照型**: クラスは明示的な準拠が必要\n• **不変性**: Sendableクラスはすべて`let`プロパティである必要\n• **@unchecked Sendable**: 内部同期を持つスレッドセーフな型用\n• **すべてのアクタータイプ**: 状態を保護するため常にSendable"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "🏗️ Em produção, entender Sendable é crucial:\n\n• **Tipos de valor**: Struct, enum, tuplas são automaticamente Sendable\n• **Tipos de referência**: Classes precisam conformidade explícita\n• **Imutabilidade**: Classes Sendable devem ter todas as propriedades `let`\n• **@unchecked Sendable**: Para tipos thread-safe com sincronização interna\n• **Actors**: Sempre Sendable pois protegem seu estado\n\n⚠️ Não torne tudo Sendable! Use apenas para dados que precisam cruzar fronteiras de isolamento."
+            "state" : "translated",
+            "value" : "🏗️ Em produção, entender Sendable é crucial:\n\n• **Tipos de valor**: Struct, enum, tuplas são automaticamente Sendable\n• **Tipos de referência**: Classes precisam conformidade explícita\n• **Imutabilidade**: Classes Sendable devem ter todas as propriedades `let`\n• **@unchecked Sendable**: Para tipos thread-safe com sincronização interna\n• **Todos os tipos de actors**: Sempre Sendable pois protegem seu estado"
           }
         }
       }
@@ -5661,20 +5685,20 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Klassen erfordern explizite Sendable-Konformität"
+            "state" : "translated",
+            "value" : "Klassen erfordern explizite Sendable-Konformität (oder @MainActor)"
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Classes require explicit Sendable conformance"
+            "state" : "translated",
+            "value" : "Classes require explicit Sendable conformance (or @MainActor)"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Las clases requieren conformidad Sendable explícita"
+            "state" : "translated",
+            "value" : "Las clases requieren conformidad Sendable explícita (o @MainActor)"
           }
         },
         "fr" : {
@@ -5685,14 +5709,14 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "クラスは明示的なSendable準拠が必要"
+            "state" : "translated",
+            "value" : "クラスは明示的なSendable準拠が必要（または@MainActor）"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Classes requerem conformidade Sendable explícita"
+            "state" : "translated",
+            "value" : "Classes requerem conformidade Sendable explícita (ou @MainActor)"
           }
         }
       }
@@ -5744,38 +5768,38 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Sendable erforderlich zum Überschreiten von Isolationsgrenzen"
+            "state" : "translated",
+            "value" : "Sendable ist eine Nachricht an den Compiler, die besagt, dass ein Typ in einen anderen Isolationskontext gesendet werden kann, ohne Data-Race-Risiken. ⚠️ Achtung: Sie können den Compiler mit @unchecked Sendable täuschen. Ihr Typ ist intrinsisch NICHT Sendable, aber Sie sagen dem Compiler, dass er es ist. Data-Race-Risiken sind daher möglich!"
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Sendable required to cross isolation boundaries"
+            "state" : "translated",
+            "value" : "Sendable is a message to the compiler telling it that a type can be sent to another isolation context without data race risks. ⚠️ Warning: you can lie to the compiler with @unchecked Sendable. Your type is intrinsically NOT Sendable, but you're telling the compiler it is. Data race risks are therefore possible!"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Sendable requerido para cruzar límites de aislamiento"
+            "state" : "translated",
+            "value" : "Sendable es un mensaje al compilador diciéndole que un tipo puede ser enviado a otro contexto de aislamiento sin riesgos de data race. ⚠️ Advertencia: puedes mentir al compilador con @unchecked Sendable. Tu tipo NO es intrínsecamente Sendable, pero le dices al compilador que sí lo es. ¡Los riesgos de data race son por lo tanto posibles!"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sendable est un message au compilateur permettant de lui dire qu’un type peut être envoyé dans un autre contexte d’isolation sans risque de data race. ⚠️ Attention : il est possible de mentir au compilateur avec @unchecked Sendable. Votre type n’est intrinsèquement PAS Sendable, mais vous dites au compilateur que si. Des risques de data race sont donc possible !"
+            "value" : "Sendable est un message au compilateur permettant de lui dire qu'un type peut être envoyé dans un autre contexte d'isolation sans risque de data race. ⚠️ Attention : il est possible de mentir au compilateur avec @unchecked Sendable. Votre type n'est intrinsèquement PAS Sendable, mais vous dites au compilateur que si. Des risques de data race sont donc possible !"
           }
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "分離境界を越えるにはSendableが必要"
+            "state" : "translated",
+            "value" : "Sendableは、型がデータ競合リスクなしで別の分離コンテキストに送信できることをコンパイラに伝えるメッセージです。⚠️ 警告：@unchecked Sendableでコンパイラを欺くことができます。あなたの型は本質的にSendableではありませんが、コンパイラにそうだと伝えています。したがって、データ競合リスクが可能です！"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Sendable necessário para cruzar fronteiras de isolamento"
+            "state" : "translated",
+            "value" : "Sendable é uma mensagem ao compilador dizendo que um tipo pode ser enviado para outro contexto de isolamento sem riscos de data race. ⚠️ Aviso: você pode mentir para o compilador com @unchecked Sendable. Seu tipo NÃO é intrinsecamente Sendable, mas você está dizendo ao compilador que é. Riscos de data race são portanto possíveis!"
           }
         }
       }
@@ -5785,38 +5809,38 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Actors sind immer Sendable (eingebauter Schutz)"
+            "state" : "translated",
+            "value" : "Alle Actor-Typen sind immer Sendable (eingebauter Schutz)"
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Actors are always Sendable (built-in protection)"
+            "state" : "translated",
+            "value" : "All actor types are always Sendable (built-in protection)"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Los actors siempre son Sendable (protección integrada)"
+            "state" : "translated",
+            "value" : "Todos los tipos de actors siempre son Sendable (protección integrada)"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tout les types d’actors sont toujours Sendable (protection intégrée)"
+            "value" : "Tout les types d'actors sont toujours Sendable (protection intégrée)"
           }
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "アクターは常にSendable（組み込み保護）"
+            "state" : "translated",
+            "value" : "すべてのアクタータイプは常にSendable（組み込み保護）"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Actors são sempre Sendable (proteção integrada)"
+            "state" : "translated",
+            "value" : "Todos os tipos de actors são sempre Sendable (proteção integrada)"
           }
         }
       }
@@ -6230,25 +6254,25 @@
       }
     },
     "taskdetached.production" : {
-      "comment" : "“Can run on main thread” au lieu de “Return”",
+      "comment" : ""Can run on main thread" au lieu de "Return"",
       "extractionState" : "manual",
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ Diese Falle ist kritisch in Swift 6.2!\n\nSelbst Task.detached kann zu MainThread zurückkehren, wenn Sie aufrufen:\n• Structs ohne Annotation (= @MainActor standardmäßig)\n• @MainActor Funktionen\n• @MainActor Eigenschaften\n\nLösung: Typen explizit als nonisolated markieren, um MainActor-Vererbung zu vermeiden.\nHinweis: nonisolated verhindert nicht, auf MainThread zu sein, wenn von MainThread aufgerufen."
+            "state" : "translated",
+            "value" : "⚠️ Diese Falle ist kritisch in Swift 6.2!\n\nSelbst Task.detached kann auf dem MainThread laufen, wenn Sie aufrufen:\n• Structs ohne Annotation (= @MainActor standardmäßig)\n• @MainActor Funktionen\n• @MainActor Eigenschaften\n\nLösung: Typen explizit als nonisolated markieren, um MainActor-Vererbung zu vermeiden.\nHinweis: nonisolated verhindert nicht, auf MainThread zu sein, wenn von MainThread aufgerufen."
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "⚠️ This trap is critical in Swift 6.2!\n\nEven Task.detached can run on MainThread if you call:\n• Structs without annotation (= @MainActor by default)\n• @MainActor functions\n• @MainActor properties\n\nSolution: explicitly mark types as nonisolated to avoid MainActor inheritance.\nNote: nonisolated doesn't prevent being on MainThread if called from MainThread."
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ ¡Esta trampa es crítica en Swift 6.2!\n\nIncluso Task.detached puede volver a MainThread si llamas:\n• Structs sin anotación (= @MainActor por defecto)\n• Funciones @MainActor\n• Propiedades @MainActor\n\nSolución: marcar explícitamente tipos como nonisolated para evitar herencia de MainActor.\nNota: nonisolated no impide estar en MainThread si se llama desde MainThread."
+            "state" : "translated",
+            "value" : "⚠️ ¡Esta trampa es crítica en Swift 6.2!\n\nIncluso Task.detached puede ejecutarse en MainThread si llamas:\n• Structs sin anotación (= @MainActor por defecto)\n• Funciones @MainActor\n• Propiedades @MainActor\n\nSolución: marcar explícitamente tipos como nonisolated para evitar herencia de MainActor.\nNota: nonisolated no impide estar en MainThread si se llama desde MainThread."
           }
         },
         "fr" : {
@@ -6259,14 +6283,14 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ この罠はSwift 6.2で重要です！\n\nTask.detachedでも以下を呼び出すとMainThreadに戻る可能性があります：\n• アノテーションなしのStruct（= デフォルトで@MainActor）\n• @MainActor関数\n• @MainActorプロパティ\n\n解決策：MainActor継承を避けるために型を明示的にnonisolatedとしてマーク。\n注意：MainThreadから呼ばれた場合、nonisolatedでもMainThread上にいることを防げません。"
+            "state" : "translated",
+            "value" : "⚠️ この罠はSwift 6.2で重要です！\n\nTask.detachedでも以下を呼び出すとMainThreadで実行される可能性があります：\n• アノテーションなしのStruct（= デフォルトで@MainActor）\n• @MainActor関数\n• @MainActorプロパティ\n\n解決策：MainActor継承を避けるために型を明示的にnonisolatedとしてマーク。\n注意：MainThreadから呼ばれた場合、nonisolatedでもMainThread上にいることを防げません。"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ Esta armadilha é crítica no Swift 6.2!\n\nMesmo Task.detached pode retornar para MainThread se você chamar:\n• Structs sem anotação (= @MainActor por padrão)\n• Funções @MainActor\n• Propriedades @MainActor\n\nSolução: marcar explicitamente tipos como nonisolated para evitar herança do MainActor.\nNota: nonisolated não impede estar no MainThread se chamado do MainThread."
+            "state" : "translated",
+            "value" : "⚠️ Esta armadilha é crítica no Swift 6.2!\n\nMesmo Task.detached pode executar no MainThread se você chamar:\n• Structs sem anotação (= @MainActor por padrão)\n• Funções @MainActor\n• Propriedades @MainActor\n\nSolução: marcar explicitamente tipos como nonisolated para evitar herança do MainActor.\nNota: nonisolated não impede estar no MainThread se chamado do MainThread."
           }
         }
       }
@@ -6358,20 +6382,20 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ Warnung in der Produktion:\n\n• TaskGroup mit DAI=MainActor kann UI blockieren bei CPU-intensiven Tasks\n• Verwenden Sie @concurrent für schwere Hintergrundberechnungen\n• Behandeln Sie Fehler mit Result<T, Error> um globale Abbrüche zu vermeiden\n• Begrenzen Sie die Anzahl gleichzeitiger Tasks (z.B. max 10)\n• Überwachen Sie Speicher: zu viele simultane Tasks = Speicherspitzen"
+            "state" : "translated",
+            "value" : "⚠️ Warnung in der Produktion:\n\n• group.addTask läuft standardmäßig im Hintergrund, aber achten Sie darauf, nicht zu viel Geschäftslogik in sein Elternteil zu setzen!\n• Behandeln Sie Fehler mit Result<T, Error> um globale Abbrüche zu vermeiden\n• Begrenzen Sie die Anzahl gleichzeitiger Tasks (z.B. max 10)\n• Überwachen Sie Speicher: zu viele simultane Tasks = Speicherspitzen"
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ Warning in production:\n\n• TaskGroup with DAI=MainActor can block UI if CPU-intensive tasks\n• Use @concurrent for heavy background calculations\n• Handle errors with Result<T, Error> to avoid global cancellation\n• Limit number of concurrent tasks (e.g., max 10)\n• Monitor memory: too many simultaneous tasks = memory spikes"
+            "state" : "translated",
+            "value" : "⚠️ Warning in production:\n\n• group.addTask runs in background by default, but be careful not to put too much business logic in its parent!\n• Handle errors with Result<T, Error> to avoid global cancellation\n• Limit number of concurrent tasks (e.g., max 10)\n• Monitor memory: too many simultaneous tasks = memory spikes"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ Advertencia en producción:\n\n• TaskGroup con DAI=MainActor puede bloquear UI si tareas CPU-intensivas\n• Use @concurrent para cálculos pesados en segundo plano\n• Maneje errores con Result<T, Error> para evitar cancelación global\n• Limite número de tareas concurrentes (ej: máx 10)\n• Monitoree memoria: demasiadas tareas simultáneas = picos de memoria"
+            "state" : "translated",
+            "value" : "⚠️ Advertencia en producción:\n\n• group.addTask se ejecuta en segundo plano por defecto, ¡pero ten cuidado de no poner demasiada lógica de negocio en su padre!\n• Maneje errores con Result<T, Error> para evitar cancelación global\n• Limite número de tareas concurrentes (ej: máx 10)\n• Monitoree memoria: demasiadas tareas simultáneas = picos de memoria"
           }
         },
         "fr" : {
@@ -6382,14 +6406,14 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ 本番での警告:\n\n• DAI=MainActorのTaskGroupはCPU集約タスクでUIをブロック可能\n• 重いバックグラウンド計算には@concurrentを使用\n• グローバルキャンセレーションを避けるためResult<T, Error>でエラー処理\n• 同時タスク数を制限（例：最大10）\n• メモリ監視：同時タスクが多すぎる = メモリスパイク"
+            "state" : "translated",
+            "value" : "⚠️ 本番での警告:\n\n• group.addTaskはデフォルトでバックグラウンドで実行されますが、親に過度のビジネスロジックを入れないよう注意してください！\n• グローバルキャンセレーションを避けるためResult<T, Error>でエラー処理\n• 同時タスク数を制限（例：最大10）\n• メモリ監視：同時タスクが多すぎる = メモリスパイク"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ Aviso em produção:\n\n• TaskGroup com DAI=MainActor pode bloquear UI se tarefas CPU-intensivas\n• Use @concurrent para cálculos pesados em segundo plano\n• Trate erros com Result<T, Error> para evitar cancelamento global\n• Limite número de tarefas concorrentes (ex: máx 10)\n• Monitore memória: muitas tarefas simultâneas = picos de memória"
+            "state" : "translated",
+            "value" : "⚠️ Aviso em produção:\n\n• group.addTask executa em segundo plano por padrão, mas tenha cuidado para não colocar muita lógica de negócio em seu pai!\n• Trate erros com Result<T, Error> para evitar cancelamento global\n• Limite número de tarefas concorrentes (ex: máx 10)\n• Monitore memória: muitas tarefas simultâneas = picos de memória"
           }
         }
       }
@@ -6766,62 +6790,62 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Task.detached {} startet von unterschiedlichem Kontext je nach DAI"
+            "state" : "translated",
+            "value" : "Task.detached {} läuft immer im Hintergrund, aber Funktionen darin können auf dem Main-Thread laufen"
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Task.detached {} always run on background thread but functions inside can run on main. "
+            "state" : "translated",
+            "value" : "Task.detached {} always runs in background, but functions inside can run on main thread"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Task.detached {} parte de contexto diferente según DAI"
+            "state" : "translated",
+            "value" : "Task.detached {} siempre se ejecuta en segundo plano, pero las funciones dentro pueden ejecutarse en el hilo principal"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Task.detached {} tourne toujours en background, mais les fonctions à l’intérieur peuvent tourner en main thread"
+            "value" : "Task.detached {} tourne toujours en background, mais les fonctions à l'intérieur peuvent tourner en main thread"
           }
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Task.detached {}はDAIに依存して異なるコンテキストから開始"
+            "state" : "translated",
+            "value" : "Task.detached {}は常にバックグラウンドで実行されますが、内部の関数はメインスレッドで実行される可能性があります"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Task.detached {} parte de contexto diferente dependendo do DAI"
+            "state" : "translated",
+            "value" : "Task.detached {} sempre executa em segundo plano, mas as funções dentro podem executar na thread principal"
           }
         }
       }
     },
     "taskvs.validation.3" : {
-      "comment" : "“May run on” au lieu de “return\"",
+      "comment" : ""May run on" au lieu de "return\"",
       "extractionState" : "manual",
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ FALLE: Task.detached + struct ohne Annotation → kann zu MainActor zurückkehren"
+            "state" : "translated",
+            "value" : "⚠️ FALLE: Task.detached + struct ohne Annotation → Funktion kann auf MainActor laufen"
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ TRAP: Task.detached + struct without annotation → may run on MainActor"
+            "state" : "translated",
+            "value" : "⚠️ TRAP: Task.detached + struct without annotation → func can run on MainActor"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ TRAMPA: Task.detached + struct sin anotación → puede volver a MainActor"
+            "state" : "translated",
+            "value" : "⚠️ TRAMPA: Task.detached + struct sin anotación → func puede ejecutarse en MainActor"
           }
         },
         "fr" : {
@@ -6832,14 +6856,14 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ 罠：Task.detached + アノテーションなしstruct → MainActorに戻る可能性"
+            "state" : "translated",
+            "value" : "⚠️ 罠：Task.detached + アノテーションなしstruct → 関数はMainActorで実行される可能性"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "⚠️ ARMADILHA: Task.detached + struct sem anotação → pode retornar ao MainActor"
+            "state" : "translated",
+            "value" : "⚠️ ARMADILHA: Task.detached + struct sem anotação → func pode executar no MainActor"
           }
         }
       }
@@ -6890,20 +6914,20 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Lösung: struct als nonisolated markieren um MainActor-Vererbung zu vermeiden"
+            "state" : "translated",
+            "value" : "Lösung: Funktion oder struct/class als nonisolated markieren um MainActor-Vererbung zu vermeiden"
           }
         },
         "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Solution: mark struct as nonisolated to avoid MainActor inheritance"
+            "state" : "translated",
+            "value" : "Solution: mark function or struct/class as nonisolated to avoid MainActor inheritance"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Solución: marcar struct como nonisolated para evitar herencia de MainActor"
+            "state" : "translated",
+            "value" : "Solución: marcar función o struct/class como nonisolated para evitar herencia de MainActor"
           }
         },
         "fr" : {
@@ -6914,14 +6938,14 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "解決策：MainActor継承を避けるためstructをnonisolatedにマーク"
+            "state" : "translated",
+            "value" : "解決策：MainActor継承を避けるために関数またはstruct/classをnonisolatedにマーク"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Solução: marcar struct como nonisolated para evitar herança do MainActor"
+            "state" : "translated",
+            "value" : "Solução: marcar função ou struct/class como nonisolated para evitar herança do MainActor"
           }
         }
       }
