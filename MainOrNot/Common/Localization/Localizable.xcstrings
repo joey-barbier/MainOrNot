@@ -3611,10 +3611,40 @@
       "comment" : "Nouveau point",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Setzen Ihres Projekts auf Swift 6 aktiviert bestimmte Flags, die von AC selbst aktiviert werden, aber 2 bleiben off (nonisolated[nonsending] by default und Infer Isolated Conformances)."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setting your project to Swift 6 will activate certain flags enabled by AC itself, but 2 will remain off (nonisolated[nonsending] by default and Infer Isolated Conformances)."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurar tu proyecto en Swift 6 activará ciertos flags activados por AC mismo, pero 2 permanecerán off (nonisolated[nonsending] by default e Infer Isolated Conformances)."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mettre votre projet en Swift 6 activera certains flags activés par AC lui même, mais 2 resteront off (nonisolated[nonsending] by default et Infer Isolated Conformances)."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プロジェクトをSwift 6に設定すると、AC自体で有効化された特定のフラグがアクティブになりますが、2つはoffのままです（nonisolated[nonsending] by defaultとInfer Isolated Conformances）。"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurar seu projeto para Swift 6 ativará certos flags ativados pelo próprio AC, mas 2 permanecerão off (nonisolated[nonsending] by default e Infer Isolated Conformances)."
           }
         }
       }
@@ -3623,10 +3653,40 @@
       "comment" : "Nouveau point",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bevorzugen Sie die Aktivierung von DAI auf MainActor, anstatt es auf off zu lassen, indem Sie Infer Isolated Conformances verwenden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prefer enabling DAI on MainActor, rather than leaving it off by using Infer Isolated Conformances."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prefiera activar DAI en MainActor, en lugar de dejarlo en off usando Infer Isolated Conformances."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Préférez activer DAI sur MainActor, plutôt que de le laisser sur off en utilisant le Infer Isolated Conformances. "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Infer Isolated Conformancesを使用してoffのままにするのではなく、MainActorでDAIを有効にすることをお勧めします。"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prefira ativar DAI no MainActor, em vez de deixá-lo em off usando Infer Isolated Conformances."
           }
         }
       }
