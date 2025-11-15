@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import Concurrency
+@testable import MainOrNot
 
 struct ConcurrencyTests {
 

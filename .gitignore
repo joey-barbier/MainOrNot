@@ -1,0 +1,52 @@
+######################
+# macOS
+######################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+######################
+# Xcode
+######################
+
+# Build & DerivedData
+build/
+DerivedData/
+DerivedData*/
+
+# Fichiers utilisateur Xcode (à ne pas partager)
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcuserstate
+
+# Divers
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+######################
+# Swift Package Manager uniquement
+######################
+
+# Données locales SPM / Xcode
+.swiftpm/
+.build/
+
+######################
+# Archives & dSYMs (optionnel)
+######################
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+
+######################
+# Logs
+######################
+*.log
