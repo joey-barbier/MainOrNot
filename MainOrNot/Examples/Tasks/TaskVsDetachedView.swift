@@ -32,8 +32,9 @@ struct DataProcessor {  // Without annotation = @MainActor by default
 }
 
 Task.detached {
+    // Body runs on background
     let processor = DataProcessor()
-    await processor.process()  // ⚠️ May run on MainThread!
+    await processor.process()  // ⚠️ Will run on MainThread!
 }
 """#
     
