@@ -78,7 +78,7 @@ struct IsolatedStruct: Equatable { /* Conformance of 'IsolatedStruct' to protoco
                         "true/false = Thread.isMainThread (on MainActor or not)",
                         "AC (Approachable Concurrency) = GlobalActorIsolatedTypesUsability",
                         "DAI (Default Actor Isolation) = MainActor or nonisolated",
-                        "Task.detached inherits context only if DAI=MainActor"
+                        "Task.detached never inherits context"
                     ]
                 )
             }
